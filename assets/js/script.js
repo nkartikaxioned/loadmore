@@ -2,7 +2,6 @@ const divContainer = document.querySelectorAll('.inner-div'),
 paragraph = document.querySelectorAll('.paragraph'),
 btnContainer = document.querySelectorAll('.btn'),
 button = document.querySelectorAll('.button');
-const buttonMessage= 'Show Less', btnmessage='Show More';
 
 button.forEach((element, index) => {
     element.addEventListener('click', () => {
