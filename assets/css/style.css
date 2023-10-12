@@ -247,8 +247,29 @@ h1 {
 
 .containerr h2 {
   padding: 60px 0 40px;
+  position: relative;
   font-size: 27px;
   font-weight: 600;
+}
+
+.containerr h2::after {
+  content: "";
+  width: 2%;
+  height: 2px;
+  position: absolute;
+  top: 74%;
+  background: #ff6200;
+  display: block;
+}
+
+.containerr h2::before {
+  content: "";
+  width: 3%;
+  height: 2px;
+  position: absolute;
+  top: 78%;
+  background: #ff6200;
+  display: block;
 }
 
 .content-list {
