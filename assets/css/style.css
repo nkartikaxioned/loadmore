@@ -119,6 +119,8 @@ header { background: #494949; }
 h1 { 
   padding: 10px;
   text-align: center;
+  font-size: 25px;
+  font-weight: 600;
 }
 /*=================================
   Header styling ends here
@@ -128,11 +130,29 @@ h1 {
   main styling starts here
 =================================*/
 
-.container { 
-  height: 100%;
+.containerr { 
+  min-height: 575px;
   background: #D2D2D2; 
 }
 
+.containerr h2 {
+  padding: 20px 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.content-list {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inner-div {
+  padding: 10px;
+  margin: 10px;
+  width: 43%;
+  min-height: 150px;
+}
 /*=================================
   main styling ends here
 =================================*/
